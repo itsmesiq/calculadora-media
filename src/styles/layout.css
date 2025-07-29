@@ -29,3 +29,29 @@ header{
         color: var(--title-color);
     }
 }
+
+#resultado{
+    margin-top: 1.25rem;
+    font: var(--text);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 1.5rem;
+}
+
+.resultado-aprovado{
+    background-color: var(--background-color);
+    color: var(--brand-color);
+    border: 1px solid var(--stroke-color);
+}
+
+.resultado-reprovado{
+    background-color: var(--background-color);
+    color: #d61831;
+    border: 1px solid var(--stroke-color);
+}
+
+.resultado-erro{
+    background-color: var(--background-color);
+    color: #d68d18;
+    border: 1px solid var(--stroke-color);
+}
