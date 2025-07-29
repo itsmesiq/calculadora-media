@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family: 'Poppins', sans-serif;
+
+    --h1: 600 1.5rem var(--font-family);
+    --text: 400 1rem var(--font-family);
+    --btn-text: 700 1.125rem var(--font-family);
+    --placeholder: 400 0.87rem var(--font-family);
+    
+    --background-color: #131516;
+    --shape-color: #212427;
+    --icon-color: #869198;
+    --input-color: #1C1F21;
+    --stroke-color: #363B40;
+    --text-color: #C8CDD0;
+    --title-color: #F9F9F9;
+    --brand-color: #00FF66;
+    --btn-color: #00E35B;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.logo{
+    width: 100%;
+    max-width: 28.5rem;
+}
+
+.flex{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 0.75rem;
+    align-items: flex-end;
+}
